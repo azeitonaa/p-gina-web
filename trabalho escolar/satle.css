@@ -6,7 +6,7 @@
   font-family: 'Roboto Slab', serif;
 }
 nav{
-    background-color: rgb(33, 26, 43);
+    background-color: rgb(99, 99, 99);
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -86,3 +86,49 @@ nav li a:hover{
     color: black;
     background-color: #fff;
 }
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 110, 110);
+    clip-path: circle(50% at bottom right);
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text{
+    position: initial;
+    max-width: 560px;
+    margin-right: 20px;
+}
+.container .text h2{
+    color: rgb(61, 61, 61);
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 500px;
+}
+.container .text h1{
+    color: rgb(61, 61, 61);
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 200px;
+}
+
